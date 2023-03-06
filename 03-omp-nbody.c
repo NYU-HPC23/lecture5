@@ -12,7 +12,7 @@ void kernel_eval(long N, const double* x, const double* y, const double* z, cons
     double ty = y[trg];
     double tz = z[trg];
     double potential = 0;
-    for (long src = 0; src < N; src++) { // loop over sourcer
+    for (long src = 0; src < N; src++) { // loop over sources
       double dx = tx - x[src];
       double dy = ty - y[src];
       double dz = tz - z[src];
